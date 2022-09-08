@@ -3,7 +3,7 @@
 Console.WriteLine("Введите 5 значное число ");
 int num = Convert.ToInt32(Console.ReadLine());
 if ((num < -9999 && num > -99999) || (num < 99999 && num > 9999))
-    {
+{
     if (num/10000 == num%10)
         {
         if ((num-num/10000*10000)/1000 == (num/10%10))
@@ -19,7 +19,7 @@ if ((num < -9999 && num > -99999) || (num < 99999 && num > 9999))
        {
        Console.WriteLine ("Число " + num + " не палиндром");
        }
-    }
+}
 else
 {
 Console.WriteLine("Число введенное вами не 5-ти значное");
